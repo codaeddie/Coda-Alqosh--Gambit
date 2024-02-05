@@ -1,7 +1,3 @@
-# Coda-Alqosh-Gambit
-Canonize a Chess player, embody the nuance playstyle and tendencies of the player. 
----
-
 # Overview:
 
 The project aims to craft a chess engine that not only plays the game but does so emulating the style, tactics, and nuances of a beloved player who has passed. By analyzing games played by the individual, ResurrectChess seeks to create a digital doppelgänger, capable of playing chess with all the quirks, strategies, and heart that characterized his approach to the game.
