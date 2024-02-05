@@ -14,60 +14,41 @@ Leveraging the strengths of both Scala and Python to create a machine learning-p
 
 ### Milestones:
 
-Detailed and Technical Milestone Checklist
+1. Data Engineering and Preprocessing
 
-1. Project Infrastructure Setup
-
-- [ ]  Initialize a Git repository with branch protection rules for master/main and develop branches.
-- [ ]  Set up a Continuous Integration (CI) pipeline using GitHub Actions or Jenkins, configured for Scala SBT build and Python code.
-- [ ]  Configure a Docker environment for both development and production, including multi-stage builds for Scala and Python environments.
-
-2. Data Engineering and Preprocessing
-
-- [ ]  Implement Python scripts using pandas for data cleaning and normalization of chess game datasets in PGN format.
-- [ ]  Develop a feature extraction pipeline in Python, leveraging numpy and scikit-learn, to transform chess moves and game outcomes into a machine-learnable format.
+- [ ]  Implement Python scripts using pandas for data cleaning and normalization of chess game datasets.
+- [ ]  Develop a feature extraction pipeline in Python to transform chess moves and game outcomes into a machine-learnable format.
 - [ ]  Create a data versioning system using DVC (Data Version Control) to manage and version datasets and model artifacts.
 
-3. Style Analysis and Machine Learning Pipeline
+2. Style Analysis and Machine Learning Pipeline
 
 - [ ]  Design a Python-based machine learning pipeline using TensorFlow or PyTorch for deep learning models, focusing on sequence prediction models that can understand and generate chess move sequences.
 - [ ]  Integrate SHAP (SHapley Additive exPlanations) or Lime for model interpretability, ensuring insights into model decisions regarding chess style replication.
 - [ ]  Employ Hyperopt or Optuna for hyperparameter tuning to optimize model performance.
 
-4. Scala Chess Engine Enhancement
+3. Scala Chess Engine
 
 - [ ]  Fork an existing open-source Scala chess engine, such as scalachess by lichess, and add custom hooks to interact with the Python model predictions.
 - [ ]  Implement a Python-to-JVM bridge using Py4J or Jep to enable real-time model inference from the Scala application.
 - [ ]  Enhance the Scala chess engine with additional modules for handling AI-generated moves, including validation and execution of moves advised by the Python model.
 
-5. User Interface Development with Scala.js
+4. UI with Scala.js
 
 - [ ]  Design the UI wireframes focusing on user interaction with the AI, game playbacks, and analysis presentations.
 - [ ]  Implement the UI using Scala.js, integrating frameworks like React or Angular through facades, to create a dynamic and responsive web application.
 - [ ]  Develop WebSocket communication between the Scala.js frontend and the Scala backend for real-time game updates and AI interaction.
 
-6. Comprehensive Testing Strategy
+5.  Testing 
 
-- [ ]  Write unit tests for both Python and Scala components using pytest and ScalaTest, respectively, achieving >80% code coverage.
+- [ ]  Write unit tests for both Python and Scala components using pytest and ScalaTest, respectively.
 - [ ]  Set up integration testing to validate the end-to-end workflow from data preprocessing to chess move generation by the AI.
 - [ ]  Configure end-to-end UI tests using Selenium or Playwright, integrated into the CI pipeline for regression testing.
 
-7. Deployment, Monitoring, and Operations
+6. Deployment, Monitoring, and Operations
 
-- [ ]  Configure Kubernetes manifests for deploying the application, ensuring scalability and high availability.
-- [ ]  Set up Prometheus and Grafana for monitoring application performance, model inference times, and system health.
+- [ ]  Configure Kubernetes manifests for deploying the application, ensuring availability.
+- [ ]  Set up Prometheus and Grafana for monitoring application performance, model inference times, and system health (if we can afford it).
 - [ ]  Implement centralized logging using ELK Stack (Elasticsearch, Logstash, Kibana) for real-time log analysis and troubleshooting.
-
-8. Documentation and Knowledge Sharing
-
-- [ ]  Document the architecture, API endpoints, and environment setup using tools like Swagger for API documentation and MkDocs for project documentation.
-- [ ]  Organize a knowledge-sharing session with the development team to walk through the system architecture, CI/CD pipeline, and operational procedures.
-
-9. Feedback Loop and Iterative Improvement
-
-- [ ]  Collect user feedback through beta testing, focusing on UI/UX, AI performance, and overall usability.
-- [ ]  Analyze performance metrics and user feedback to prioritize feature enhancements and bug fixes.
-- [ ]  Plan sprint cycles for iterative development based on feedback analysis, focusing on continuous improvement of the AI model and user experience.
 
 ---
 
