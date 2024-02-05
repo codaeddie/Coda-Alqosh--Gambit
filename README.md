@@ -73,21 +73,16 @@ Detailed and Technical Milestone Checklist
 
 ## Definitions
 
-* Data Ingestion: The process of collecting, importing, and processing data for further data analysis or data storage. In this context, it involves collecting chess game data from external sources like chess.com and preparing it for analysis.
+* **Data Ingestion**: The process of collecting, importing, and processing data for further data analysis or data storage. In this context, it involves collecting chess game data from external sources like chess.com and preparing it for analysis.
 * Style Analysis Module: A component developed in Python that uses statistical and machine learning techniques to analyze chess game data. The goal is to identify distinct patterns, preferences, and strategies that characterize the player's unique style.
-* Machine Learning Model: An algorithm trained on a dataset to make predictions or decisions without being explicitly programmed to perform the task. Here, it's used to predict or replicate the specific chess style of the player.
-* Scala-Chess Integration: The process of combining the machine learning model with a chess engine written in Scala. This involves ensuring that the Python model can interact with the Scala application, allowing the AI to make moves within the chess engine.
-* Python-Scala Interoperability: The ability for Python and Scala code to interact within the same application. Achieved through tools like Jep (Java Embedded Python) or GraalVM, which allow Python scripts to be called from Scala/JVM applications.
-* Scala.js: A Scala compiler that compiles Scala code to JavaScript, enabling Scala developers to write front-end web applications in Scala.
-* Deployment: The process of making the application available for use. Involves packaging the application, possibly using Docker containers, and managing its deployment with orchestration tools like Kubernetes to ensure it can scale and handle user demand.
-* Containerization: A lightweight, portable method of distributing applications by encapsulating them in containers, which include all necessary executables, binary code, libraries, and configuration files.
-* Orchestration: The automated configuration, coordination, and management of computer systems and software. Kubernetes is a popular tool for orchestrating containers, handling tasks like deployment, scaling, and management of containerized applications.
-* TensorFlow, PyTorch: Open-source machine learning libraries for numerical computation and machine learning. TensorFlow is developed by Google, and PyTorch is developed by Facebook. Both are widely used for training and deploying machine learning models.
-* Jupyter Notebook: An open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text. Commonly used for data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, etc.
-* Jep (Java Embedded Python): A library that allows Python scripts to be run from Java. It is used to facilitate the interoperability between Python and Java (and by extension, Scala) code within the same application.
-* GraalVM: A universal virtual machine for running applications written in JavaScript, Python, Ruby, and JVM-based languages like Java and Scala. It supports interoperability between these languages, making it suitable for integrating Python machine learning models with Scala applications.
-* Docker: An open-source platform for developing, shipping, and running applications in containers, allowing applications to run in the same environment regardless of where they are deployed.
-* Kubernetes: An open-source platform for automating deployment, scaling, and operations of application containers across clusters of hosts, providing container-centric infrastructure.
-* Grafana: An open-source platform for monitoring and observability, compatible with multiple data sources like Prometheus and Elasticsearch, used for dashboarding and visualization.
-* ELK Stack: Elasticsearch, Logstash, and Kibana. A set of open-source tools for searching, analyzing, and visualizing log data in real-time.
-* Swagger: An open-source software framework backed by a large ecosystem of tools that helps developers design, build, document, and consume RESTful web services.
+* **Python-Scala Interoperability**: The ability for Python and Scala code to interact within the same application. Achieved through tools like Jep (Java Embedded Python) or GraalVM, which allow Python scripts to be called from Scala/JVM applications.
+* **Scala.js**: A Scala compiler that compiles Scala code to JavaScript, enabling Scala developers to write front-end web applications in Scala.
+* **Containerization**: A lightweight, portable method of distributing applications by encapsulating them in containers, which include all necessary executables, binary code, libraries, and configuration files.
+* **TensorFlow, PyTorch**: Open-source machine learning libraries for numerical computation and machine learning. TensorFlow is developed by Google, and PyTorch is developed by Facebook. Both are widely used for training and deploying machine learning models.
+* **Jep** (Java Embedded Python): A library that allows Python scripts to be run from Java. It is used to facilitate the interoperability between Python and Java (and by extension, Scala) code within the same application.
+* **GraalVM**: A universal virtual machine for running applications written in JavaScript, Python, Ruby, and JVM-based languages like Java and Scala. It supports interoperability between these languages, making it suitable for integrating Python machine learning models with Scala applications.
+* **Docker**: An open-source platform for developing, shipping, and running applications in containers, allowing applications to run in the same environment regardless of where they are deployed.
+* **Kubernetes**: An open-source platform for automating deployment, scaling, and operations of application containers across clusters of hosts, providing container-centric infrastructure.
+* **Grafana**: An open-source platform for monitoring and observability, compatible with multiple data sources like Prometheus and Elasticsearch, used for dashboarding and visualization.
+* **ELK Stack**: Elasticsearch, Logstash, and Kibana. A set of open-source tools for searching, analyzing, and visualizing log data in real-time.
+* **Swagger**: An open-source software framework backed by a large ecosystem of tools that helps developers design, build, document, and consume RESTful web services.
